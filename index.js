@@ -1,6 +1,3 @@
-# node-server
-- 能处理路由，支持静态目录的 server
-```
 var http = require('http')     //创建服务器模块
 var fs = require('fs')        //读写文件
 var path = require('path')    //处理URL
@@ -57,4 +54,3 @@ var server = http.createServer(function(req, res){
 
 server.listen(8787)
 console.log('visit http://localhost:8787')
-```
